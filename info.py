@@ -15,14 +15,14 @@ def is_enabled(value, default):
 SESSION = environ.get('SESSION', 'Media_search')
 API_ID = int(environ.get('API_ID', '21478717'))
 API_HASH = environ.get('API_HASH', '8f8629885b7fd647e3a5006fb27c38d6')
-BOT_TOKEN = environ.get('BOT_TOKEN', '8155016207:AAG4LaisEzqfAVreq6zXpzsEGif1PDVYjeQ')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7782423092:AAHlqph1Jn65bP_lvSbk99enqRiQZaQDIdg')
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1807895968').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/website907") # ADMIN USERNAME
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002339275614'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/+pEdMoiFdVJNmM2U1')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002152775108').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002441740132').split()]
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://tosikk:tosikk@tosikk.qn5eb.mongodb.net/?retryWrites=true&w=majority&appName=tosikk")
@@ -44,14 +44,14 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/') #Support group link 
 #---------------------------------------------------------------
 IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
-TUTORIAL = environ.get("TUTORIAL", "https://t.me/")
+TUTORIAL = environ.get("TUTORIAL", "https://t.me/how_to_watch_link_and_downlod/41")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "6dda1b9bba4ce7c6265a359caa2b30a1018d427a")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'gplink.com')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "6dda1b9bba4ce7c6265a359caa2b30a1018d427a")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'gplink.com')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "6dda1b9bba4ce7c6265a359caa2b30a1018d427a")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'gplink.com')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -60,8 +60,8 @@ LANGUAGES = ["hindi", "english", "telugu", "tamil", "kannada", "malayalam", "ben
 QUALITIES = ["HdRip","web-dl" ,"bluray", "hdr", "fhd" , "240p", "360p", "480p", "540p", "720p", "960p", "1080p", "1440p", "2K", "2160p", "4k", "5K", "8K"]
 YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
-REF_PREMIUM = 30
-PREMIUM_POINT = 1500
+REF_PREMIUM = 10
+PREMIUM_POINT = 100
 #---------------------------------------------------------------
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(request_channel) else None
